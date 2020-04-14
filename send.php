@@ -24,7 +24,7 @@ $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_i
 
 if ($sendToTelegram) {
    echo "Сообщение отправлено. Спасибо Вам, " . $name . ", мы скоро свяжемся с Вами.";
-echo "<br /><br /><a href='https://hunt2020.pw'>Вернуться на сайт.</a>";
+echo "<br /><br /><a href='https://yoursite.com'>Вернуться на сайт.</a>";
 } else {
   echo "Error";
 }
